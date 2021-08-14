@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+if [[ -f "config.h" ]]; then
+    rm "config.h"
+fi
+
+sudo make clean install
